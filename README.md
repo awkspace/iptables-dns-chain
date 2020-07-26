@@ -6,6 +6,13 @@ cron!
 **Warning:** To keep the state of the specified chain consistent, the rest of
 the rules will be wiped. Maybe don't use it on INPUT.
 
+### Install
+
+``` sh
+sudo wget -O /usr/local/bin/iptables-dns-chain https://raw.githubusercontent.com/awkspace/iptables-dns-chain/master/iptables-dns-chain.sh
+sudo chmod +x /usr/local/bin/iptables-dns-chain
+```
+
 ### Usage
 
 ```
